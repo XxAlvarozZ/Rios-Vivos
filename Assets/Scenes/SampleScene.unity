@@ -928,7 +928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f43d9090e3333b4faa82d8c226b82c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RiosVivos.RaftDurability
-  maxDurability: 100
+  maxDurability: 20
   minImpactSpeed: 1.5
   damagePerSpeed: 6
   hitCooldown: 0.5
