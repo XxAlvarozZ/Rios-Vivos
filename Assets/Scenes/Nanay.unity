@@ -198,7 +198,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 40ef4461940af6b4bb7ef372dfc7b09f, type: 2}
+  - {fileID: 2100000, guid: 151e993f9121f88479d616d93f871c44, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -239,7 +239,7 @@ Transform:
   m_GameObject: {fileID: 225086657}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5, y: 0.5, z: 25}
+  m_LocalPosition: {x: 6, y: 0.5, z: 25}
   m_LocalScale: {x: 2, y: 3, z: 50}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2409,7 +2409,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0138f0022b9891344897f9133a6024d0, type: 2}
+  - {fileID: 2100000, guid: 51cd610a3e0961148b8e24ee7e305757, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2451,7 +2451,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.24435, y: -0, z: 0.25728}
-  m_LocalScale: {x: 0.8, y: 1, z: 5}
+  m_LocalScale: {x: 1, y: 1.5, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2468,11 +2468,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8f1afa872bb63843a481005988f40c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RiosVivos.WaterQualityMeter
-  riverId: 1
+  riverId: 2
   totalTrashInRiver: 8
   unlockThreshold: 80
   waterRenderer: {fileID: 1101334868}
-  dirtyColor: {r: 0.3019608, g: 0.3372549, b: 0.27058825, a: 0.85}
+  dirtyColor: {r: 0.23137255, g: 0.23529412, b: 0.14901961, a: 0.85}
   cleanColor: {r: 0.1, g: 0.75, b: 0.8, a: 0.85}
 --- !u!1 &1189261448
 GameObject:
@@ -2621,7 +2621,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 40ef4461940af6b4bb7ef372dfc7b09f, type: 2}
+  - {fileID: 2100000, guid: 151e993f9121f88479d616d93f871c44, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2662,7 +2662,7 @@ Transform:
   m_GameObject: {fileID: 1214447423}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: 0.5, z: 25}
+  m_LocalPosition: {x: -6, y: 0.5, z: 25}
   m_LocalScale: {x: 2, y: 3, z: 50}
   m_ConstrainProportionsScale: 0
   m_Children: []
