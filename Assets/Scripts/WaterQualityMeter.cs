@@ -25,6 +25,9 @@ namespace RiosVivos
         bool unlocked;
         Material mat;
 
+        void OnEnable() => GameEvents.OnBonusCleanup += AddCleaned;
+        void OnDisable() => GameEvents.OnBonusCleanup -= AddCleaned;
+
         void Awake()
         {
             Instance = this;

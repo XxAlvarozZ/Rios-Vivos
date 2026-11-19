@@ -4,6 +4,7 @@ using UnityEngine;
 namespace RiosVivos
 {
     public enum TrashType { Plastic, Organic, Metal, NonRecyclable }
+    public enum ObjectiveType { Barrier, DredgeReport }
 
     /// <summary>
     /// Bus de eventos compartido. Cada script emite y escucha eventos aquí,
@@ -22,6 +23,8 @@ namespace RiosVivos
         public static event Action OnRaftRespawned;
         public static event Action OnRepairRequested;
         public static event Action<string> OnMessage;
+        public static event Action<int> OnBonusCleanup;                 // residuos "equivalentes" (barreras, reportes)
+        public static event Action<ObjectiveType> OnObjectiveCompleted;
 
         public static void TrashCollected(TrashType t) => OnTrashCollected?.Invoke(t);
         public static void CapacityChanged(int cur, int max) => OnCapacityChanged?.Invoke(cur, max);
@@ -34,5 +37,7 @@ namespace RiosVivos
         public static void RaftRespawned() => OnRaftRespawned?.Invoke();
         public static void RepairRequested() => OnRepairRequested?.Invoke();
         public static void Message(string text) => OnMessage?.Invoke(text);
+        public static void BonusCleanup(int items) => OnBonusCleanup?.Invoke(items);
+        public static void ObjectiveCompleted(ObjectiveType t) => OnObjectiveCompleted?.Invoke(t);
     }
 }
