@@ -1941,7 +1941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RiosVivos.RiverExit
   riverId: 2
-  nextScene: MenuPrincipal
+  nextScene: MainMenu
 --- !u!65 &824838505
 BoxCollider:
   m_ObjectHideFlags: 0
