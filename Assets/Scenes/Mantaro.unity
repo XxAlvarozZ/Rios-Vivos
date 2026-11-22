@@ -1934,7 +1934,7 @@ Transform:
   m_GameObject: {fileID: 740184563}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 24}
+  m_LocalPosition: {x: 0, y: 2, z: 38}
   m_LocalScale: {x: 10, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2086,8 +2086,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 808074337}
-  - component: {fileID: 808074339}
-  - component: {fileID: 808074338}
   m_Layer: 0
   m_Name: NetPoint
   m_TagString: Untagged
@@ -2110,36 +2108,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 944780158}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &808074338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 808074336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a309ff29292264d44ab6dc2c87f04156, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RiosVivos.NetCollector
-  netPoint: {fileID: 808074337}
-  cargo: {fileID: 0}
-  radius: 3
-  maxPerCast: 5
-  cooldown: 0.5
---- !u!114 &808074339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 808074336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 620d9d22d00c5b246bd72bd3a5a875fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RiosVivos.RaftCargo
-  capacity: 10
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -2400,7 +2368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RiosVivos.NetCollector
   netPoint: {fileID: 808074337}
-  cargo: {fileID: 0}
+  cargo: {fileID: 944780161}
   radius: 3
   maxPerCast: 5
   cooldown: 0.5
