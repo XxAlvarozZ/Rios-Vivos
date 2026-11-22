@@ -4108,6 +4108,7 @@ GameObject:
   - component: {fileID: 1399253920}
   - component: {fileID: 1399253919}
   - component: {fileID: 1399253918}
+  - component: {fileID: 1399253922}
   m_Layer: 5
   m_Name: HUD
   m_TagString: Untagged
@@ -4207,6 +4208,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1399253922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399253917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72f1a845382da154d94358f45aa1f6a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RiosVivos.HudController
+  capacitySlider: {fileID: 1237324205}
+  durabilitySlider: {fileID: 829857459}
+  qualitySlider: {fileID: 530133370}
+  capacityText: {fileID: 706853685}
+  qualityText: {fileID: 1705506446}
+  coinsText: {fileID: 1792800405}
+  messageText: {fileID: 1448908916}
+  messageSeconds: 3
 --- !u!1 &1402098617
 GameObject:
   m_ObjectHideFlags: 0
